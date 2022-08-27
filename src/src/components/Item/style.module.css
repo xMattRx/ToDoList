@@ -1,0 +1,47 @@
+.item_create{
+    align-items: flex-start;
+    background: #333;
+    border-radius: 8px;
+    display: flex;
+    max-width: 736px;
+    margin-bottom: 12px;
+    /* justify-content: space-between; */
+    padding: 16px;
+    width: 100%;
+}
+.item_create_done{
+    align-items: flex-start;
+    background: #333;
+    border-radius: 8px;
+    display: none;
+    max-width: 736px;
+    margin-bottom: 12px;
+    /* justify-content: space-between; */
+    padding: 16px;
+    width: 100%;
+}
+.circle_create{
+    border: 2px solid #4EA8DE;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px;
+    height: 17.45px;
+    width: 17.45px;
+}
+.circle_done{
+    border: 2px solid #8284FA;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px;
+    height: 17.45px;
+    width: 17.45px;
+}
+.text{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 12px;
+    width: 100%;
+}
+.lixeira{
+    cursor: pointer;
+}

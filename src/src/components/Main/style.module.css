@@ -1,0 +1,134 @@
+.header{
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-top: 72px;
+    padding-bottom:80px;
+   
+}
+.header img{
+    width: 126px;
+}
+.header_content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 736px;
+}
+.formContainer{
+    align-items: center;
+    bottom: -99px;
+    display: flex;
+    justify-content: center;
+    max-width: 736px;
+    margin-top: 53px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
+.input{
+    background-color: #262626;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #808080;
+    outline: none;
+    padding: 16px 0 16px 16px;
+    width: 638px;
+}
+input::placeholder{
+    color: #808080;
+}
+.formContainer button{
+    background-color: #1E6F9F;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    margin-left: 8px;
+    outline: none;
+    padding: 16px;
+}
+
+.plus{
+    width: 15.97px !important;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    max-width: 736px;
+    margin-top: 64px;
+    width: 100%;
+}
+.main_contentEmpty_header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #333333;
+}
+.main_content_header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.created_tasks{
+    color: #4EA8DE;
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.completed_tasks{
+    color: #8284FA;
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.number{
+    background: #333333;
+    border-radius: 12px;
+    color: #fff;
+    cursor: default;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+.main_contentEmpty_body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:64px;
+    padding-bottom: 64px;
+}
+.main_content_body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgEmpty{
+    margin-bottom: 16px;
+}
+.textEmpty{
+    color: #808080;
+    font-size: 16px;
+    line-height: 22.4px;
+    max-width: 315px;
+}
+.firstParagraph{
+    color: #808080;
+    font-weight: 700;
+}
